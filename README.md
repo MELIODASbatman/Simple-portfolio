@@ -54,6 +54,8 @@ This project guides students through building a colorful, structured personal pr
 4. **Lists**: Distinguishing when to use ordered (`<ol>`) versus unordered (`<ul>`) lists.
 5. **Styling & Aesthetics**: Using subtle drop-shadows, soft rounded corners, and pastel background gradients.
 
+**\***images are AI Generated**\***
+
 \*\*\*\*THE WEBPAGE DOSE NOT HAVE RESPONSIVENESS CODE IN IT\*\*\*
 
 ![How the webpage will look like](images/final%20coppy.png)
