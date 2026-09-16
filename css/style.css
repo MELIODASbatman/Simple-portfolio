@@ -42,7 +42,7 @@ body {
 }
 
 .nav h1 {
-  font-size: 50px;
+  font-size: 70px;
   font-weight: bold;
   text-align: center;
   color: #4545d8;
@@ -54,4 +54,249 @@ body {
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 800px;
+  min-height: 500px;
+  gap: 30px;
+  padding: 30px;
+  margin: 50px auto;
 }
+
+.aboutme {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: #75e1fc;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.myhobbies {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: #75e1fc;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.aboutme:hover {
+  transform: translateY(-5px);
+}
+
+.myhobbies:hover {
+  transform: translateY(-5px);
+}
+
+.aboutme img,
+.myhobbies img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.aboutme h2,
+.myhobbies h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.aboutme p,
+.myhobbies p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.myhobbies li {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-left: 30px;
+}
+/* end of styling about me and my hobbies */
+
+/* Styling my daily activities */
+.daily {
+  width: 700px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+}
+
+.daily h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.daily ol {
+  display: inline-block;
+  margin-left: 30px;
+  text-align: left;
+}
+
+.daily li {
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* end of about me and my hobbies  */
+
+/* styling daily schedule */
+.myschedule h1 {
+  width: 700px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.schedule {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 800px;
+  min-height: 100px;
+  gap: 30px;
+  padding: 5px;
+  margin: 50px auto;
+}
+
+.wake {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.wake:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.school {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.school:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.study {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.study:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.lunch {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lunch:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.homework {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.homework:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.play {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.play:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.read {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.read:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.sleep {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sleep:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.schedule h2 {
+  font-size: 15px;
+  display: inline-block;
+  padding: 2px 12px;
+  border: 2px;
+  background-color: #fd00f1;
+  border-radius: 20px;
+}
+
+.schedule h3 {
+  font-size: 18px;
+  padding: 2px;
+}
+
+.schedule p {
+  font-size: 16px;
+  padding: 2px;
+}
+/* end of styling my daily schedule */
+
+/* styling line */
+.lineuse {
+  border: none;
+  height: 2px;
+  background-color: #460101;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+/* end of styling line */
+
+/* styling footer */
+footer {
+  text-align: center;
+}
+
+/* end of styling footer */
