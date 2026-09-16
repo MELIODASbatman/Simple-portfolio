@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(150deg, #00c5f7, #ffffff, #fd00f1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styling nav */
+.nav-links ul {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  background-color: rgba(255, 255, 255, 0.461);
+  gap: 30px;
+  padding: 10px 2%;
+  margin: 25px auto;
+  width: fit-content;
+  border-radius: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #22205f;
+  font-size: 20px;
+}
+
+.nav-links a.active {
+  background-color: #4545d8;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+
+.nav h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #4545d8;
+}
+
+/* end of styling nav */
+
+/* styling about and hobbies */
+.card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
