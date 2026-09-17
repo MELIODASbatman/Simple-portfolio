@@ -36,11 +36,14 @@ This project guides students through building a colorful, structured personal pr
 **Project Structure**
 
 ```text
-├── index.html
-├── style.css
-└── assets/
-    ├── about-image.png
-    └── hobbies-image.png
+└── webpages/
+    ├── index.html
+└── css/
+    ├── style.css
+└── images/
+    ├── brayo.png
+    └── game.png
+    └── final coppy.png
 
 ```
 
