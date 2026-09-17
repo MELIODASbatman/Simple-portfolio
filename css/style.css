@@ -15,7 +15,6 @@ body {
   display: flex;
   justify-content: center;
   gap: 50px;
-
   background-color: rgba(255, 255, 255, 0.461);
   gap: 30px;
   padding: 10px 2%;
@@ -287,7 +286,7 @@ body {
 .lineuse {
   border: none;
   height: 2px;
-  background-color: #460101;
+  background-color: #f80000;
   width: 80%;
   margin: 20px auto;
   border-radius: 5px;

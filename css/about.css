@@ -1,0 +1,163 @@
+/* styling brayo */
+.brayo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+  min-height: 300px;
+  gap: 5px;
+  padding: 2px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.brayo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.brayo h1 {
+  font-size: 50px;
+  color: #4545d8;
+  padding: 10px;
+}
+
+.brayo p {
+  font-size: 25px;
+  padding: 10px;
+}
+/* end of styling brayo */
+
+/* styling my details and my favourites */
+.brayodetails {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+  min-height: 400px;
+  gap: 30px;
+  padding: 30px;
+  margin: 50px auto;
+}
+
+.mydetails {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mydetails:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.myfavourites {
+  padding: 20px;
+  border: 2px solid #4545d8;
+  background-color: aliceblue;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myfavourites:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.mydetails h1,
+.myfavourites h1 {
+  font-size: 50px;
+  color: #4545d8;
+  font-weight: bold;
+}
+
+.mydetails ul,
+.myfavourites ul {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.mydetails span,
+.myfavourites span {
+  font-weight: bold;
+}
+/* end of styling my details and my favourites */
+
+/* styling things i am good at */
+.good {
+  width: 800px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  width: 900px;
+  min-height: 90px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.good h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #4545d8;
+  font-weight: bold;
+}
+
+.goodat {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+
+.goodat p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border: 2px;
+  background-color: #fd00f1;
+  border-radius: 20px;
+  gap: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.goodat p:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+/* end of styling things i am good at */
+
+/* styling A few words about me */
+.fewword {
+  width: 800px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  width: 900px;
+  min-height: 90px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.fewword h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4545d8;
+}
+
+.fewword p {
+  font-size: 20px;
+  line-height: 1.5;
+}
