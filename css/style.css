@@ -33,7 +33,7 @@ body {
   font-size: 20px;
 }
 
-.nav-links a.active {
+.nav-links a:hover {
   background-color: #4545d8;
   color: white;
   padding: 10px 25px;
@@ -45,6 +45,15 @@ body {
   font-weight: bold;
   text-align: center;
   color: #4545d8;
+}
+
+.linetop {
+  border: none;
+  height: 9px;
+  background-color: #f80000;
+  width: 15%;
+  margin: 20px auto;
+  border-radius: 5px;
 }
 
 /* end of styling nav */
