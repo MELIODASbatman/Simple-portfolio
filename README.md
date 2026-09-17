@@ -61,4 +61,5 @@ This project guides students through building a colorful, structured personal pr
 
 \*\*\*\*THE WEBPAGE DOSE NOT HAVE RESPONSIVENESS CODE IN IT\*\*\*
 
-![How the webpage will look like](images/final%20coppy.png)
+![How the home will look like](images/final%20coppy.png)
+![How the about will look like](images/aboutfinal.png)
