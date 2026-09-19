@@ -1,0 +1,172 @@
+/* styling my hobbies */
+.game {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 900px;
+  min-height: 300px;
+  gap: 5px;
+  padding: 2px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.game img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.game h1 {
+  font-size: 40px;
+  color: #4545d8;
+  padding: 10px;
+}
+
+.game p {
+  font-size: 25px;
+  padding: 10px;
+}
+/* end of styling my hobbies */
+
+/* styling four favourite */
+.fav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.photo,
+.web,
+.readlearn,
+.tech {
+  background: #f4f0ff;
+  border-radius: 16px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.photo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.web:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.readlearn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.tech:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.fav img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  grid-row: 1 / 3;
+  align-self: start;
+}
+
+.fav h2 {
+  margin: 0;
+  color: #4b20c9;
+  font-size: 20px;
+}
+
+.fav p {
+  margin: 3px 0 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* end of styling four favourite */
+
+/* styling Why My Hobbies Matter */
+.matter {
+  width: 800px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  width: 900px;
+  min-height: 90px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.matter h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #4545d8;
+}
+
+.matter p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+/* end of styling Why My Hobbies Matter */
+
+/* styling hobbies i want to try */
+.try {
+  width: 800px;
+  margin: 30px auto 0 auto;
+  text-align: left;
+  width: 900px;
+  min-height: 90px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 2px solid aliceblue;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+
+.try h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #4545d8;
+  font-weight: bold;
+}
+
+.totry {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+
+.totry p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border: 2px;
+  background-color: #fd00f1;
+  border-radius: 20px;
+  gap: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.totry p:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+/* end of styling hobbies i want to try */
