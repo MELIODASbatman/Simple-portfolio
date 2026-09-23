@@ -65,3 +65,4 @@ This project guides students through building a colorful, structured personal pr
 ![How the about will look like](images/aboutfinal.png)
 ![How the about will look like](images/hobbyfinal.png)
 ![How the about will look like](images/finalactivity.png)
+![How the about will look like](images/goalfinal.png)
