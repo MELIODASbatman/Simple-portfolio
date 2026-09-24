@@ -1,4 +1,4 @@
-# 🌐 My Personal Portfolio — Learn HTML & CSS by Building
+# My Personal Portfolio — Learn HTML & CSS by Building
 
 > A beginner-friendly, **multi-page personal portfolio website** built with nothing but **pure HTML5 and CSS3**.
 > Created as a teaching project to help students take their very first steps into web design — no frameworks, no JavaScript libraries, no build tools. Just a text editor and a browser.
@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 1. [About the Project](#-about-the-project)
 2. [Preview](#-preview)
@@ -25,7 +25,7 @@
 
 ---
 
-## 🎯 About the Project
+## About the Project
 
 This project was designed to teach students **web design fundamentals using only HTML and CSS**, before they move on to JavaScript or frameworks.
 
@@ -38,7 +38,7 @@ By the end, students will have a real portfolio they can personalise, show to fr
 
 ---
 
-## 🖼 Preview
+## Preview
 
 |                Home                |                About                 |
 | :--------------------------------: | :----------------------------------: |
