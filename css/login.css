@@ -1,0 +1,133 @@
+/* styling login-part */
+.login-part {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login-card {
+  width: 650px;
+  padding: 45px;
+  background-color: aliceblue;
+  border-radius: 35px;
+  box-shadow: 0 20px 40px rgba(80, 40, 130, 0.15);
+  text-align: center;
+}
+
+.user-icon {
+  width: 115px;
+  height: 115px;
+  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d25c8;
+  border-radius: 50%;
+}
+
+.user-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.login-card h1 {
+  font-size: 50px;
+  color: #4d25c8;
+  margin-bottom: 30px;
+}
+
+.form {
+  text-align: left;
+}
+
+form > label {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  color: #393075;
+  margin: 20px 5px 8px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  height: 68px;
+  padding: 15px 20px;
+  border: 2px solid #cbb8f3;
+  border-radius: 18px;
+  background-color: white;
+  font-size: 22px;
+  outline: none;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  border-color: #6535d8;
+}
+
+input::placeholder {
+  color: #a49bc5;
+}
+
+.login-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 25px;
+  font-size: 20px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+}
+
+.login-option a {
+  color: #4d25c8;
+  text-decoration: none;
+}
+
+.login-option a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 70px;
+  border: none;
+  border-radius: 18px;
+  background: linear-gradient(95deg, #6535d8, #a646df);
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(91, 45, 100, 0.25);
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.signup {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+.signup a {
+  color: #6634d5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  text-decoration: underline;
+}
+/* end of styling login-part */
